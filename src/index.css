@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  margin: 0 auto;
+  background-color: #060F18;
+  color: #B4CEEE;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.club-list{
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+}
+.club-item{
+  text-align: center;
+  margin: 15px;
+  width: 500px;
+  background-color: #0A192B;
+  border-radius: 15px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 7px;
+}
+.clubs-btn{
+  background-color: #255695;
+  width: 85%;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  color: #B4CEEE;
+}
+.clubs-btn:hover{
+  background-color: #3377C9;
+}
+.class-list{
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.class-item{
+  background-color: #0A192B;
+  width: 400px;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+  border-radius: 15px;
+  padding-bottom: 7px;
 }
